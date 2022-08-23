@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>OI</title>
-</head>
-<body>
-    OI
-</body>
-</html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8"/>
+        <style>
+            .coluna {
+    display: flex;
+    flex-flow: column;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row;
+}
+
+.flexbox {
+    text-align: center;
+    display: flexbox;
+    background: #ff0000;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox2 {
+    text-align: center;
+    display: flexbox;
+    background: #7bff00;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox3 {
+    text-align: center;
+    display: flexbox;
+    background: #ca0098;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox4 {
+    text-align: center;
+    display: flexbox;
+    background: #0041ce;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox4b {
+    text-align: center;
+    display: flexbox;
+    background: #0041ce;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+    width: -50;
+}
+
+
+        </style>
+    </head> 
+
+    <body>
+        <section class="linha">
+            <div class="flexbox"></div>
+            <div style="flex-grow: 2" class="coluna">
+                <div class="flexbox2"></div>
+
+                <div class="linha">
+                    <div class="flexbox3">
+                        </div>
+
+                    <div style="flex-grow: 1" class="coluna">
+                        <div class="flexbox4"></div>
+                        <div class="flexbox4b"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html> 
